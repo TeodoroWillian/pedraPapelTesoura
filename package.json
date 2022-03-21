@@ -1,0 +1,23 @@
+{
+  "name": "pedrapapeltesoura",
+  "version": "1.0.0",
+  "description": "Este repositório foi criado para realizar o projeto pedraPapelTesoura da Blue.",
+  "main": "pedraPapelTesoura.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeodoroWillian/pedraPapelTesoura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeodoroWillian/pedraPapelTesoura/issues"
+  },
+  "homepage": "https://github.com/TeodoroWillian/pedraPapelTesoura#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
