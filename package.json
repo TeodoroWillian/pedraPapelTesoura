@@ -19,5 +19,8 @@
   "homepage": "https://github.com/TeodoroWillian/pedraPapelTesoura#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.0"
   }
 }
