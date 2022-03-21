@@ -18,7 +18,24 @@ let desejaJogarNovamente = "sim";
 while(desejaJogarNovamente == "sim"){
     let rodadas = prompt("Escolha quantas rodadas terá a partida: ");
     for(let i = 0; i< rodadas; i++){
-        escolhaDoJogador = prompt("Escolha uma casa para disputa ");
+
+        while (true) {
+    escolhaDoJogador = prompt(`Escolha: Grifinoria, Sonserina, ou Corvinal  `).toLowerCase();
+    console.log("\n");
+    if (escolhaDoJogador === "grifinoria" || escolhaDoJogador === "sonserina" || escolhaDoJogador === "corvinal") {
+        break;
+    } else if (escolhaDoJogador != "grifinoria") {
+        console.log(`Você não digitou corretamente o nome do casa, tente novamente.`);
+        console.log("\n");
+    }else if (escolhaDoJogador != "sonserina") {
+        console.log(`Você não digitou corretamente o nome do casa, tente novamente.`);
+        console.log("\n");
+    }else if (escolhaDoJogador != "corvinal") {
+        console.log(`Você não digitou corretamente o nome do casa, tente novamente.`);
+        console.log("\n");
+    };
+};
+
         escolhaDoComputador = Math.floor(Math.random() * 3);
         console.log();
         console.log(`O computador escolheu ${elementos[escolhaDoComputador]}`);
